@@ -7,14 +7,13 @@ h1{
    text-align: center;
 }
 
-h2 {
+h2{
     color: purple;
     font: 11px;
-    text-align: center;
+    text-align: center
 }
-
-
-div class wrapper {
-    color: saddlebrown
-    font size: 16px
-    
+h3{
+color: gray;
+font-size: 14px;
+text-align: center;
+}

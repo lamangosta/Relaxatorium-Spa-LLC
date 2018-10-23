@@ -1,13 +1,16 @@
-head {
-    color: purple;
-    text: italics;
-    font: 16px;
-}
 
+    
 h1{
    color: blue;
    text-emphasis: bold;
-   font-size: 14px;
+   font-size: 22px;
+   text-align: center;
+}
+
+h2 {
+    color: purple;
+    font: 11px;
+    text-align: center;
 }
 
 

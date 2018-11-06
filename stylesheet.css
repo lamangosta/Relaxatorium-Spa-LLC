@@ -23,3 +23,11 @@ color: blue;
 font-size: 16px;
 text-align: center;    
 }
+
+/*-----Mobile Device------*/
+@media
+(max-width: 960px){
+    body{
+        background: royalblue;
+    }
+}

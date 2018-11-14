@@ -33,6 +33,7 @@ h4 {
     font-size: 26px;
     text-align: center;
     
+    
 
 }
 
@@ -47,7 +48,8 @@ li {
 p {
     color: black;
     text-align: center;
-    
+    text-size: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .container {

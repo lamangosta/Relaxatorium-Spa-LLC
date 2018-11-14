@@ -16,7 +16,7 @@
 </head>
 
 <body>
-
+<div class= "container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -35,21 +35,40 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
-
+              </div>
         <h1>RELAXATORIUM SPA LLC</h1>
-        <h2>Treat the Body Well, and It Will Take Care of You!</h2>
-           <p>Come be Refreshed!</p>
-        <li>Relax</li>
-        <li>Rejuvenate</li>
-        <li>Rest</li>
-        
-<div id=wrapper>
-    <p>At Relaxatorium Spa LLC, leave all your cares behind while our staff
+          <p>Treat the Body Well, and It Will Take Care of You!
+              Relax, Rejuvenate, Revive!
+          </p>
+          <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                  </button>
+                  <a class="navbar-brand" href="#">RelaxatoriumSpaLLC</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                      <li class="active"><a href="#">Home</a></li>
+                      <li><a href="#MeetYourTherapist">Meet Your Therapist</a></li>
+                      <li><a href="#Services">Services</a></li>
+                      <li><a href="#RequestMoreInformation">Request More Information</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right"></ul>
+                </div>
+              </div>
+            </nav>
+
+<div>
+    <p> Come be refreshed! At Relaxatorium Spa LLC, leave all your cares behind while our staff
        uses state of the art massage techniques in order to help you feel like a brand new you! 
     </p>
 </div>
 <div>
-<h3>Meet your Massage Therapist</h3>
+<h2 id="MeetYourTherapist">Meet your Massage Therapist</h2>
     <p>Meet Dee: She has been working in the field of massage therapy as an LMT(Licensed Massage Therapist) since 1999.
        She has received numerous awards, and the commendation of her peers. Her client's rave about her service, and many have followed her over the years
        as she has worked at various spas throughout the contiguous United States, and Hawaii.</p> 
@@ -65,16 +84,41 @@
      </p>
      </div>
 
-     <h4>Services</h4>
+     <h3 id="Services">Services</h3>
         <p>At Relaxatorium Spa we offer a wide range of services. Facials, hair, nails, and of course 60, and 85 minute massages for individuals, and couples. Deep tissue, relaxation, bamboo, and hot stone massages.</p>
+        <div>
+          <li>Deep Tissue Massage</li>
+          <li>Hot Stone Massage</li>
+          <li>Relaxation Massage</li>
+          <li>Bamboo Massage</li>
+        </div>
 
         
+        <form action="RELAXATORIUMSPA.html"post">
+        <h4 id=RequestMoreInformation>Request More Information/Schedule an Appointment</h4> 
+          
+        
+        <input type="text" id="name" name="user_name">
+        <input type="email" id="mail" name="user_email">
+        <input type="phone" id="phone" name="user_phonenumber">
+
+        <textarea id="comment" name="user_comment"></textarea>
+        <button type="submit">Submit</button>
+      
+        
+        </form>
+    
+      
+        
+
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>        
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+        
+  
     </body>
 </html>
 

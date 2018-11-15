@@ -90,6 +90,6 @@ p {
 (max-width: 960px){
     body{
         background: orchid;
-        font-size: 50%;
+        font-size: 75%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }

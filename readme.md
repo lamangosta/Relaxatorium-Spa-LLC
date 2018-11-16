@@ -2,7 +2,7 @@ This website is for Relaxatorium Spa LLC. You will find information on the thera
 
 There is a form that you can enter your email address, and phone number for them to contact you with additional information or to schedule an appointment.
 
-When you open the Relaxatorium Spa LLC.html., the JavaScript will welcome you to the page. 
+When you open the Relaxatorium Spa LLC.html., the JavaScript will welcome you to the page. If you refresh the page you will also get this message.
 
 The Information/Appointment button on the form will take you to a page where you receive an error. However, if you like you can still enter your name, email, and phone number and comment information. Again, this information will not be submitted.
 
